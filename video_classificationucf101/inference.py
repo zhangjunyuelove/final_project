@@ -33,7 +33,7 @@ import utils
 FLAGS = flags.FLAGS
 
 if __name__ == '__main__':
-  flags.DEFINE_string("train_dir", 'E:/cifar-10/Youtube-8M-WILLOW-master/poolingmlp',
+  flags.DEFINE_string("train_dir", 'E:/ucf-101/NetVLAD',
                       "The directory to load the model files from.")
   flags.DEFINE_string("output_file", "poolingmlp.csv",
                       "The file to save the predictions to.")
