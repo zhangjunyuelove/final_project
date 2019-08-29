@@ -35,7 +35,7 @@ FLAGS = flags.FLAGS
 
 if __name__ == "__main__":
   # Dataset flags.
-  flags.DEFINE_string("train_dir", "E:/cifar-10/Youtube-8M-WILLOW-master/try",
+  flags.DEFINE_string("train_dir", "E:/ucf-101/NetVLAD",
                       "The directory to save the model files in.")
   flags.DEFINE_string(
       "train_data_pattern", "E:/UCF101_TRAIN/ucf_train.tfrecord",
